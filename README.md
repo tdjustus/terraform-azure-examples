@@ -6,6 +6,8 @@ its own.
 
 ## Examples
 
+* [container_registry](container_registry/) - container registry for pushing
+  images (defaults to Basic SKU with the admin user disabled)
 * [managed_disk](managed_disk/) - resource group with an empty managed disk
   (defaults to a 32GB Standard_LRS, both configurable)
 * [storage_account](storage_account/) - storage account with the firewall
@@ -36,5 +38,6 @@ following commands.
 
 Every example needs a `subscription_id`, which is the one variable without
 a default. Everything else (location, disk size, subnets, replication type,
-etc.) ships with a default you can override — drop any overrides in a
+registry SKU, etc.) ships with a default you can override — drop any
+overrides in a
 `terraform.tfvars` file in the example's folder.
