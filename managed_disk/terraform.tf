@@ -1,5 +1,3 @@
-# Define the Azure Resource Manager provider
-
 terraform {
   required_providers {
     azurerm = {
